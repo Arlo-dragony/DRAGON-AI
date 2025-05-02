@@ -35,7 +35,7 @@ const group = process.env.GROUP_ONLY_MSG || '𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗺�
 const botAdmin = process.env.BOT_ADMIN_MSG || '𝗜 𝗻𝗲𝗲𝗱 𝗔𝗱𝗺𝗶𝗻 𝗽𝗿𝗲𝘃𝗶𝗹𝗲𝗱𝗴𝗲𝘀!';
 const NotOwner = process.env.NOT_OWNER_MSG || '𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗺𝗲𝗮𝗻𝘁 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗼𝘄𝗻𝗲𝗿!';
 
-const wapresence = process.env.WA_PRESENCE || 'typing';
+const wapresence = process.env.WA_PRESENCE || 'online';
 const antilink = process.env.ANTILINK || 'FALSE';
 const mycode = process.env.CODE || '254';
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
