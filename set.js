@@ -14,20 +14,20 @@ const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
 const mode = process.env.MODE || 'PRIVATE';
-const anticall = process.env.AUTOREJECT_CALL || 'TRUE';
+const anticall = process.env.AUTOREJECT_CALL || 'FALSE';
 
 const botname = process.env.BOTNAME || 'DRAGON-AI';
 const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'⚜️DRAGON-AI⚜️';
 const packname = process.env.STICKER_PACKNAME || 'DRAGON-AI🗿';
 const antitag = process.env.ANTITAG || 'TRUE';
-const dev = process.env.DEV || '256742933981';
+const dev = process.env.DEV || '254112988293';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
 const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
 const bad = process.env.BAD_WORD || 'fuck,ku';
-const autoread = process.env.AUTOREAD || 'FALSE';
+const autoread = process.env.AUTOREAD || 'TRUE';
 const antidel = process.env.ANTIDELETE || 'TRUE';
 
 const admin = process.env.ADMIN_MSG || '𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗿𝗲𝘀𝗲𝗿𝘃𝗲𝗱 𝗳𝗼𝗿 𝗔𝗱𝗺𝗶𝗻𝘀!';
