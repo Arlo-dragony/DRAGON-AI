@@ -21,7 +21,7 @@ const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'⚜️DRAGON-AI⚜️';
 const packname = process.env.STICKER_PACKNAME || 'DRAGON-AI🗿';
 const antitag = process.env.ANTITAG || 'TRUE';
-const dev = process.env.DEV || '254115650146';
+const dev = process.env.DEV || '256742933981';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
