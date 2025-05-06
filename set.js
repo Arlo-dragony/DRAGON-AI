@@ -6,14 +6,14 @@ const sessionName = 'session';
 const session = process.env.SESSION || '';
 const autobio = process.env.AUTOBIO || 'FALSE';
 const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
-const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
+const autolike = process.env.AUTOLIKE_STATUS || 'FALSE';
 const welcomegoodbye = process.env.WELCOMEGOODBYE || 'FALSE';
 
 const prefix = process.env.PREFIX || '.';
 const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
-const mode = process.env.MODE || 'PUBLIC';
+const mode = process.env.MODE || 'PRIVATE';
 const anticall = process.env.AUTOREJECT_CALL || 'FALSE';
 
 const botname = process.env.BOTNAME || 'DRAGON-AI';
@@ -21,7 +21,7 @@ const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'⚜️DRAGON-AI⚜️';
 const packname = process.env.STICKER_PACKNAME || 'DRAGON-AI🗿';
 const antitag = process.env.ANTITAG || 'TRUE';
-const dev = process.env.DEV || '254712382555';
+const dev = process.env.DEV || '254754489074';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
