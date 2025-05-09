@@ -14,14 +14,14 @@ const appname = process.env.APP_NAME || '';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
 const mode = process.env.MODE || 'PRIVATE';
-const anticall = process.env.AUTOREJECT_CALL || 'FALSE';
+const anticall = process.env.AUTOREJECT_CALL || 'TRUE';
 
 const botname = process.env.BOTNAME || 'DRAGON-AI';
 const antibot = process.env.ANTIBOT || 'FALSE';
 const author = process.env.STICKER_AUTHOR ||'⚜️DRAGON-AI⚜️';
 const packname = process.env.STICKER_PACKNAME || 'DRAGON-AI🗿';
 const antitag = process.env.ANTITAG || 'TRUE';
-const dev = process.env.DEV || '256778181840';
+const dev = process.env.DEV || '254702713600';
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
 const DevRaven = dev.split(",");
