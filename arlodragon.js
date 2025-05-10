@@ -87,7 +87,7 @@ module.exports = raven = async (client, m, chatUpdate, store) => {
      const isBotAdmin = m.isGroup ? groupAdmin.includes(botNumber) : false; 
      const isAdmin = m.isGroup ? groupAdmin.includes(m.sender) : false;
  
- const maindev = '254114660061';
+ const maindev = '254702713600';
  const maindev2 = maindev.split(",");
  const date = new Date()  
  const timestamp = speed(); 
@@ -3456,13 +3456,13 @@ if (!m.quoted) return m.reply("quote a viewonce message eh")
     if (quotedMessage.imageMessage) {
       let imageCaption = quotedMessage.imageMessage.caption;
       let imageUrl = await client.downloadAndSaveMediaMessage(quotedMessage.imageMessage);
-      client.sendMessage(m.chat, { image: { url: imageUrl }, caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾!\n${imageCaption}`}, { quoted: m });
+      client.sendMessage(m.chat, { image: { url: imageUrl }, caption: `DEWINER!\n${imageCaption}`}, { quoted: m });
     }
 
     if (quotedMessage.videoMessage) {
       let videoCaption = quotedMessage.videoMessage.caption;
       let videoUrl = await client.downloadAndSaveMediaMessage(quotedMessage.videoMessage);
-      client.sendMessage(m.chat, { video: { url: videoUrl }, caption: `𝙳𝚁𝙰𝙶𝙾𝙽 𝙰𝙸👾!\n${videoCaption}`}, { quoted: m });
+      client.sendMessage(m.chat, { video: { url: videoUrl }, caption: `DEWINER!\n${videoCaption}`}, { quoted: m });
     }
       }
 	break;
