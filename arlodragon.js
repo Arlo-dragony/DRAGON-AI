@@ -870,9 +870,9 @@ const path = require("path");
     let link = search.all[0].url;
 
     const apis = [
-      `https://xploader-api.vercel.app/ytmp3?url=${link}`,
-      `https://apis.davidcyriltech.my.id/youtube/mp3?url=${link}`,
-      `https://api.ryzendesu.vip/api/downloader/ytmp3?url=${link}`,
+      `https://api.giftedtech.web.id/api/download/ytmp3?apikey=${link}`,
+      `https://api.giftedtech.web.id/api/download/ytmp3?apikey=${link}`,
+      `https://api.giftedtech.web.id/api/download/ytdl?apikey=${link}`,
       `https://api.dreaded.site/api/ytdl/audio?url=${link}`
        ];
 
