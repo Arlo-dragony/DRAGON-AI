@@ -9,7 +9,7 @@ const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
 const autolike = process.env.AUTOLIKE_STATUS || 'TRUE';
 const welcomegoodbye = process.env.WELCOMEGOODBYE || 'FALSE';
 
-const prefix = process.env.PREFIX || '';
+const prefix = process.env.PREFIX || '.';
 const appname = process.env.APP_NAME || 'Arlodragon';
 const herokuapi = process.env.HEROKU_API;
 const gptdm = process.env.GPT_INBOX || 'FALSE';
